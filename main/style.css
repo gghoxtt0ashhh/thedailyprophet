@@ -1,0 +1,89 @@
+/* links */
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* fim de links */
+
+/* root */
+:root {
+    --background: #DAD3C1;
+    --font-color: #27200E;
+}
+/* use os valores com "var()" */
+
+/* header */
+
+.logo-jornal {
+    display: flex;
+    margin: 20px 150px 10px 20px;
+}
+
+.logo {
+    width: 90px;
+    color: var(--font-color);
+}
+
+
+
+/* fim de header */
+
+/* primeira parte */
+
+.texto-header {
+    height: 100px;
+}
+
+.content1 {
+    border-left: solid 2px var(--font-color);
+    border-right: solid 2px var(--font-color);
+    margin: 0 150px 0 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.texto-1 {
+    width: 250px;
+    text-align: justify;
+    margin: 0 0 0 30px;
+}
+
+.titulo {
+    width: 450px;
+    text-align: justify;
+    margin: 0 0 0 30px;
+}
+
+.video1 {
+    width: 190px;
+    margin: -455px 0 0 260px;
+}
+/* fim da primeira parte */
+
+/* geral */
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    background-color: var(--background);
+    color: var(--font-color);
+}
+
+h1 {
+    font-family: "Anton", serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+
