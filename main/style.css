@@ -1,74 +1,24 @@
-/* links */
+/* LINKS */
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-/* fim de links */
+/* FIM DOS LINKS */
 
-/* root */
+/* ROOT */
 :root {
     --background: #DAD3C1;
     --font-color: #27200E;
 }
-/* use os valores com "var()" */
+/* FIM DO ROOT */
 
-/* header */
-
-.logo-jornal {
-    display: flex;
-    margin: 20px 150px 10px 20px;
-}
-
-.logo {
-    width: 90px;
-    color: var(--font-color);
-}
-
-
-
-/* fim de header */
-
-/* primeira parte */
-
-.texto-header {
-    height: 100px;
-}
-
-.content1 {
-    border-left: solid 2px var(--font-color);
-    border-right: solid 2px var(--font-color);
-    margin: 0 150px 0 30px;
-}
-
-.content {
-    display: flex;
-}
-
-.texto-1 {
-    width: 250px;
-    text-align: justify;
-    margin: 0 0 0 30px;
-}
-
-.titulo {
-    width: 450px;
-    text-align: justify;
-    margin: 0 0 0 30px;
-}
-
-.video1 {
-    width: 190px;
-    margin: -455px 0 0 260px;
-}
-/* fim da primeira parte */
-
-/* geral */
+/* ESTILO GERAL */
 * {
     border: none;
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
-    display: flex;
     background-color: var(--background);
     color: var(--font-color);
 }
@@ -80,10 +30,59 @@ h1 {
 
 p {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-weight: 500;
+}
+
+/* FIM ESTILO GERAL */
+
+/* ESTILO DO HEADER */
+
+.logo {
+  width: 900px;
+  color: var(--font-color);
+  margin: 0 0 0 35px;
+}
+
+/* FIM ESTILO HEADER */
+
+/* ESTILO PARTE 1 */
+
+.titulo1 {
+  margin: 30px 0 0 0;
+}
+
+.container {
+  display: flex;
+  border: solid 3px var(--font-color);
+  padding: 10px;
+  margin: 15px -5px;
+}
+
+.content1 {
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 10px;
+}
+
+.titulo1 {
+  font-size: 50px;
+  width: 600px;
+  text-align: justify;
+  margin: 20px 10px 0 100px;
+} 
+
+.texto1 {
+  width: 350px;
+  text-align: justify;
+  margin: 0 0 0 90px;
+}
+
+.video1 {
+  height: 500px;
+  margin: -419px 0 0 500px;
+  
 }
 
 
-
+/* FIM DO ESTILO 1 */
